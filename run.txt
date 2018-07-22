@@ -1,0 +1,8 @@
+Run:
+forever start -c python3 autobreeder.py
+
+Stop:
+forever stop 0
+
+Restart:
+forever restart 0

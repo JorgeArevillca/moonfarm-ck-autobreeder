@@ -1,0 +1,18 @@
+sudo yum -y update
+sudo yum install -y yum-utils
+sudo yum install -y python36 python36-pip python36-devel.x86_64 "openssl-devel" libgmp-dev gmp-devel automake pkgconfig libtool
+sudo yum groupinstall -y "Development Tools"
+sudo yum install -y libffi libffi-devel
+git clone https://github.com/ethereum/pyethereum/
+cd pyethereum
+sudo python3 setup.py install
+cd ..
+sudo python3 -m pip install -U web3==4.0.0b10
+sudo python3 -m pip install numpy
+
+curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.6/install.sh | bash
+. ~/.nvm/nvm.sh
+nvm install v9.6.1
+npm install npm@latest -g
+npm install forever -g
+

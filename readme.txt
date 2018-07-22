@@ -4,6 +4,10 @@ This is an autobreeding bot i've used for a couple of months, I hope it will
 be useful to you as much as it has been useful to me. :) Below are instructions on how to put it on an amazon aws account,
 which are free for a year approximately.
 
+!! ** A quick note ** !!
+!! If you use aws amazon you will have to put your private key in an instance on THEIR servers, it has worked well for me !!
+!! but note that you are trusting them with your key. !!
+
 Requirements:
 # api-key from infura.io, get it by signing up at https://infura.io/signup
 # amazon aws account, get by creating an account at https://aws.amazon.com/

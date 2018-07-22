@@ -1,7 +1,7 @@
 Hi there!
 
-Thank you for purchasing this autobreeder, I hope it will 
-be useful to you (forever)
+This is an autobreeding bot i've used for a couple of months, I hope it will 
+be useful to you as much as it has been useful to me. :) Below are instructions on how to put it on an amazon aws account, which are free for a year approximately.
 
 Requirements:
 # api-key from infura.io, get it by signing up at https://infura.io/signup
